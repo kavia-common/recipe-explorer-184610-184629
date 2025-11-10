@@ -1,12 +1,7 @@
 androidApplication {
     namespace = "org.example.app"
 
-    // Configure testing to not fail when no tests are discovered
-    testing {
-        unitTests {
-            failOnNoDiscoveredTests = false
-        }
-    }
+    // Note: Testing configuration removed to avoid unsupported 'unitTests' DSL in declarative Gradle.
 
     dependencies {
         implementation("org.apache.commons:commons-text:1.11.0")
