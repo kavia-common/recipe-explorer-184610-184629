@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme aligning to Ocean Professional and modern Material components -->
+    <style name="Theme.RecipeExplorer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorSurface</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorTextPrimary</item>
+
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:fontFamily">@font/sans_regular</item>
+
+        <!-- Rounded corners and subtle elevations -->
+        <item name="shapeAppearanceSmallComponent">@style/Shape.Small.Rounded</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.Medium.Rounded</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.Large.Rounded</item>
+
+        <!-- BottomNavigation & AppBar -->
+        <item name="bottomNavigationStyle">@style/Widget.Recipe.BottomNavigation</item>
+        <item name="materialCardViewStyle">@style/Widget.Recipe.Card</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Recipe.Fab</item>
+        <item name="materialButtonStyle">@style/Widget.Recipe.Button</item>
+        <item name="textInputStyle">@style/Widget.Recipe.TextInputLayout</item>
+        <item name="toolbarStyle">@style/Widget.Recipe.Toolbar</item>
+    </style>
+
+    <style name="Shape.Small.Rounded" parent="ShapeAppearance.Material3.Corner.Small">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="Shape.Medium.Rounded" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="Shape.Large.Rounded" parent="ShapeAppearance.Material3.Corner.Large">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="Widget.Recipe.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/colorTextSecondary</item>
+        <item name="itemTextColor">@color/colorTextSecondary</item>
+        <item name="backgroundTint">@color/colorSurface</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <style name="Widget.Recipe.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/colorSurface</item>
+        <item name="shapeAppearance">@style/Shape.Medium.Rounded</item>
+    </style>
+
+    <style name="Widget.Recipe.Fab" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Recipe.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.Recipe.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+</resources>

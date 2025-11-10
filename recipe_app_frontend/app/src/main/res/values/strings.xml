@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Recipe Explorer</string>
+
+    <string name="search_hint">Search recipes</string>
+    <string name="favorites">Favorites</string>
+    <string name="browse">Browse</string>
+    <string name="add">Add</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="unsave">Unsave</string>
+    <string name="no_favorites">No favorites yet</string>
+    <string name="title_required">Title is required</string>
+    <string name="description_required">Description is required</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="recipe_title">Title</string>
+    <string name="recipe_description">Description</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_steps">Steps</string>
+    <string name="recipe_image_url">Image URL (optional)</string>
+    <string name="pull_to_refresh">Pull to refresh</string>
+
+    <string name="cd_recipe_image">Recipe image</string>
+    <string name="cd_favorite_toggle">Toggle favorite</string>
+    <string name="cd_share_recipe">Share recipe</string>
+</resources>

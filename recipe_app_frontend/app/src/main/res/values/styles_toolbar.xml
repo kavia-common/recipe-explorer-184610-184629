@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Recipe.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/colorSurface</item>
+        <item name="titleTextColor">@color/colorTextPrimary</item>
+        <item name="subtitleTextColor">@color/colorTextSecondary</item>
+        <item name="elevation">4dp</item>
+    </style>
+</resources>
